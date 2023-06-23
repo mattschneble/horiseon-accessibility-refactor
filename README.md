@@ -30,7 +30,7 @@ I used my knowledge gained to help reorganize code to make things easier to unde
 
 ## Credits
 
-I would like to shoutout some of my classmate; Kayla Dutte, Stephanie Lenorovitz, Samuel Thomas, Sonam Sherpa, Jacob Kachmarek, Lainey Creighton and Joel Longares for assisting me with debugging and helping me to understand where some of my mistakes were made. 
+I would like to shoutout some of my classmate; Kayla Dutte, Stephanie Lenorovitz, Samuel Thomas, Sonam Sherpa, Jacob Kachmarek, Lainey Creighton and Joel Longares for assisting me with debugging and helping me to understand where some of my mistakes were made. All code was either supplied to me via starter code (found in deployment e51cae3), or entered by myself. I also utilized the MDN sites above to help understand concepts and how to use proper syntax, but all code was entered by myself. 
 
 ## License
 
