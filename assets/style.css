@@ -13,19 +13,20 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-    display: inline-block;
 }
 
-.header h1 {
+header h1 {
+    color: #ffffff;
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+
+header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,13 +34,15 @@ header {
     font-size: 20px;
 }
 
-.header div ul {
+header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+header nav ul li {
+    font-size: 30px;
+    color: #d9dcd6;
+    padding: 20px;
     display: inline;
-    margin-left: 25px;
 }
 
 a {
@@ -51,12 +54,14 @@ p {
     font-size: 16px;
 }
 
-hero {
+.hero {
     /*changed width to 100px from 100%*/
-    height: 100px;
-    width: 100px;
+    height: 800px;
+    width: 100%;
     margin-bottom: 25px;
-    background-image: "assets\images\digital-marketing-meeting.jpg"
+    background-image: url("../assets/images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .float-left {
@@ -86,11 +91,14 @@ hero {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-lead,
+.benefit-brand,
+.benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*negated the below 2 code blocks and moved into group above as the properties were all the same.
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
@@ -100,12 +108,16 @@ hero {
     margin-bottom: 32px;
     color: #ffffff;
 }
+*/
 
-.benefit-lead h3 {
+.benefit-lead h3,
+.benefit-brand h3,
+.benfit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*negated the below 2 block of code and moved into group above as the properties were all the same.
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -115,13 +127,17 @@ hero {
     margin-bottom: 10px;
     text-align: center;
 }
+*/
 
-.benefit-lead img {
+.benefit-lead img,
+.benefit-brand img,
+.benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*negated the below 2 blocks of code and added to the above group since the properties were the same.
 .benefit-brand img {
     display: block;
     margin: 10px auto;
@@ -133,69 +149,76 @@ hero {
     margin: 10px auto;
     max-width: 150px;
 }
+*/
 
 .search-engine-optimization {
     margin-bottom: 20px;
-    padding: 50px;
-    height: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
+    padding: 30px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
 
-social-media-marketing {
+.online-reputation-management {
     margin-bottom: 20px;
-    padding: 50px;
+    padding: 30px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
 
-search-engine-optimization img {
-    max-height: 200px;
-    max-width: 200px;
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 30px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
 
-online-reputation-management img {
+.search-engine-optimization img {
     max-height: 200px;
 }
 
-social-media-marketing img {
+.online-reputation-management img {
     max-height: 200px;
 }
 
-search-engine-optimization h2 {
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+    padding: 20px;
+    margin-top: 20px;
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-online-reputation-management h2 {
+.online-reputation-management h2 {
+    padding: 20px;
+    margin-top: 20px;
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-social-media-marketing h2 {
+.social-media-marketing h2 {
+    padding: 20px;
+    margin-top: 20px;
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 footer {
-    padding: 30px;
+    padding: 0px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
+/*negated the below code as it is not needed in the final.
 footer h2 {
     font-size: 20px;
-}
+} */
