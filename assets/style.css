@@ -55,7 +55,7 @@ p {
 }
 
 .hero {
-    /*changed width to 100px from 100%*/
+    /*changed height to 800px*/
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -63,15 +63,12 @@ p {
     background-size: cover;
     background-position: center;
 }
-
-.float-left {
+ 
+/*combined float-left and float-right as their conditions were the same.*/
+.float-left,
+.float-right {
     float: left;
     margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
 }
 
 .content {
@@ -91,6 +88,7 @@ p {
     background-color: #2589bd;
 }
 
+/*combined benefit-lead, benefit-brand and benefit-cost as their conditions were the same.*/
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
@@ -98,18 +96,7 @@ p {
     color: #ffffff;
 }
 
-/*negated the below 2 code blocks and moved into group above as the properties were all the same.
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-*/
-
+/*combined benefit-leadh3, benefit-brandh3 and benefit-costh3 as their conditions were the same.*/
 .benefit-lead h3,
 .benefit-brand h3,
 .benfit-cost h3 {
@@ -117,18 +104,7 @@ p {
     text-align: center;
 }
 
-/*negated the below 2 block of code and moved into group above as the properties were all the same.
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-*/
-
+/*combined benefit-lead img, benefit-brand img and benefit-cost img as their conditions were the same.*/
 .benefit-lead img,
 .benefit-brand img,
 .benefit-cost img {
@@ -137,38 +113,9 @@ p {
     max-width: 150px;
 }
 
-/*negated the below 2 blocks of code and added to the above group since the properties were the same.
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-*/
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 30px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 30px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
+/*combined search-engine-optimization, online-reputation-management and social-media-marketing as their conditions were the same.*/
+.search-engine-optimization,
+.online-reputation-management,
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 30px;
@@ -178,39 +125,25 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
+/*combined search-engine-optimization img, online-reputation-management img and social-media-marketing img as their conditions were the same.*/
+.search-engine-optimization img,
+.online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
+/*combined search-engine-optimization h2, online-reputation-management h2 and social-media-marketing h2 as their conditions were the same.*/
+.search-engine-optimization, h2
+.online-reputation-management h2, 
+.social-media-marketing h2
+{
     padding: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/*negated the below code as it is not needed in the final as per the mockup design.
 footer {
     padding: 0px;
     clear: both;
@@ -218,7 +151,7 @@ footer {
     text-align: center;
 }
 
-/*negated the below code as it is not needed in the final.
+
 footer h2 {
     font-size: 20px;
 } */
