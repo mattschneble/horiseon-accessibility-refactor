@@ -145,7 +145,7 @@ p {
     font-size: 36px;
 }
 
-/*negated the below code as it is not needed in the final as per the mockup design.
+/*changed below code to remove the "." in front of footer since the class is no longer defined.*/
 footer {
     padding: 0px;
     clear: both;
@@ -153,7 +153,7 @@ footer {
     text-align: center;
 }
 
-
+/*changed below code to remove the "." in front of footer since the class is no longer defined.*/
 footer h2 {
     font-size: 20px;
-} */
+}
