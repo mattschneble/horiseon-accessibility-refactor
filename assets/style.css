@@ -130,6 +130,8 @@ p {
 .online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /*combined search-engine-optimization h2, online-reputation-management h2 and social-media-marketing h2 as their conditions were the same.*/
